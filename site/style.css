@@ -1,13 +1,26 @@
 .CV {
-    color: #ffffff;
+    color: #004aad;
+    font-size: 65px;
     font-family: 'Josefin Sans', sans-serif;
-    text-align: end;
-    background: linear-gradient(to right, #004aad, #ffffff);
-    /* padding: 10px; */
-  
+    /* font-weight: 1200; */
+    text-align: right;
+    /* background: linear-gradient(to right, #004aad, #ffffff); */
+    padding: 200px;
+    border-radius: 30px;
+    background-image: url("../images/photo_CV.png");
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.5;
   }
   img {
     height: 300px;
     width: 300px;
-    object-position: left;
+    object-position: top left;
+  }
+
+  .separation {
+    padding: 20px;
+    background-color: #004aad;
+    border-radius: 10px;
   }
