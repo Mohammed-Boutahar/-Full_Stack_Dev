@@ -1,22 +1,27 @@
 .CV {
     color: #004aad;
-    font-size: 65px;
+    font-size: 60px;
     font-family: 'Josefin Sans', sans-serif;
     /* font-weight: 1200; */
     text-align: right;
     /* background: linear-gradient(to right, #004aad, #ffffff); */
     padding: 200px;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     background-image: url("../images/photo_CV.png");
-    background-position: top center;
+    background-position: top left;
     background-attachment: fixed;
     background-repeat: no-repeat;
     opacity: 0.6;
   }
+
+.CV:hover{
+  opacity: 1;
+  text-shadow: 6px 6px 15px rgb(110, 109, 109);
+
+}
   img {
     height: 300px;
     width: 300px;
-    object-position: top left;
   }
 
   .separation {
