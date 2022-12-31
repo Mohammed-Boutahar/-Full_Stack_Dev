@@ -1,3 +1,8 @@
-h1 {
-    color: rgb(0, 13, 255);
+.CV {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: end;
+    background: linear-gradient(to right, #004aad, #ffffff);
+    padding: 150px;
+   
   }
