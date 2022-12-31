@@ -3,6 +3,11 @@
     font-family: 'Josefin Sans', sans-serif;
     text-align: end;
     background: linear-gradient(to right, #004aad, #ffffff);
-    padding: 150px;
-   
+    /* padding: 10px; */
+  
+  }
+  img {
+    height: 300px;
+    width: 300px;
+    object-position: left;
   }
