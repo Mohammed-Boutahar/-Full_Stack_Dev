@@ -1,3 +1,13 @@
+*{
+  margin: 0;
+}
+
+.header {
+  background-color: #004aad;
+  padding: 20px;
+  width: 100%;
+}
+
 .CV {
     color: #004aad;
     font-size: 60px;
@@ -8,10 +18,10 @@
     padding: 200px;
     /* border-radius: 30px; */
     background-image: url("../images/photo_CV.png");
-    background-position: top left;
+    background-position:  left;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    opacity: 0.6;
+    opacity: 0.8;
   }
 
 .CV:hover{
@@ -20,12 +30,24 @@
 
 }
   img {
+    position: relative;;
     height: 300px;
     width: 300px;
   }
 
+  
   .separation {
     padding: 20px;
     background-color: #004aad;
     border-radius: 10px;
+  }
+
+  p{
+    margin: 20px;
+  }
+
+  .paragraphs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
