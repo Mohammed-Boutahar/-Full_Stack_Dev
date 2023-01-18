@@ -9,4 +9,4 @@
 <h1>HTML</h1>
 <p>Coursera - University of Johns Hopkins</p>
 
-<a href="https://mohammed-boutahar.github.io/Full-Stack-Dev/site/" target="_blank"> Site </a>
+<a href="https://mohammed-boutahar.github.io/Full-Stack-Dev_Beginner/site/" target="_blank"> Site </a>
